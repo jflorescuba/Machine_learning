@@ -23,7 +23,7 @@ Construire un modèle qui permet de prédire les ventes à partir des dépenses 
 
 ```{r}
 #
-donnees_marketing<-read.csv("/home/flores-cuba/Documents/GIT_hub_Cod/Machine_learning/RL_R/data/donnees_marketing.csv")
+donnees_marketing<-read.csv("/home/flores-cuba/Documents/GIT_hub_Cod/Machine_learning/MLmodels_R/data/donnees_marketing.csv")
 head(donnees_marketing)
 ```
 ```{r summary-stats, results='asis'}
