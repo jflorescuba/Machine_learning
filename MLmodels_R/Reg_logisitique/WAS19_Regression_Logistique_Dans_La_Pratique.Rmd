@@ -37,7 +37,7 @@ Vous pouvez accéder à ces données en visitant le site de l'UCI dédié au mac
 La base est également disponible sur Kaggle: [Heart Failure Prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
 
 ```{r}
-url <- "https://raw.githubusercontent.com/LeCoinStat/WAS/main/WAS19/data/heart.csv"
+url <- "/home/flores-cuba/Documents/GIT_hub_Cod/Machine_learning/MLmodels_R/Reg_logisitique/data/heart.csv"
 data <- read.csv(url, header=TRUE)
 ```
 ```{r}
@@ -329,7 +329,7 @@ results <- results[order(results$Kruskal_Wallis, decreasing = TRUE), ]
 print(results)
 ```
 
-
+## on a vu que tout les variables sont pertinentes
 ## Analyse de la multicolinéarité
 
 ### Corrélation entre les grandeur numérique
@@ -407,7 +407,7 @@ test_lr <- lrtest(modele_logistique)
 
 # Afficher les résultats du test
 print(test_lr)
-
+# pour voire la signific globale
 ```
 
 
