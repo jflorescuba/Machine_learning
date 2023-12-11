@@ -87,7 +87,7 @@ if (!require(pacman)) install.packages("pacman")
 pacman::p_load(pacman, readr, lubridate, tseries, forecast,ggplot2,plotly,lmtest)
 
 # URL du fichier CSV brut
-url <- "/home/flores-cuba/Documents/GIT_hub_Cod/Machine_learning/MLmodels_R/Séries_Temporelles/data/airline_passengers.csv"
+url <- "/home/flores-cuba/Documents/GIT_hub_Cod/Machine_learning/MLmodels_R/Series_Temporelles/data/airline_passengers.csv"
 
 # Importer les données depuis l'URL
 df <- read_csv(url)
