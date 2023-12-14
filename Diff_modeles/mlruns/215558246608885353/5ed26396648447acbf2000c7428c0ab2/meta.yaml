@@ -1,0 +1,15 @@
+artifact_uri: file:///home/flores-cuba/Documents/GIT_hub_Cod/Machine_learning/Diff_modeles/mlruns/215558246608885353/5ed26396648447acbf2000c7428c0ab2/artifacts
+end_time: 1702585780161
+entry_point_name: ''
+experiment_id: '215558246608885353'
+lifecycle_stage: active
+run_id: 5ed26396648447acbf2000c7428c0ab2
+run_name: reg_logistic_max_iter200
+run_uuid: 5ed26396648447acbf2000c7428c0ab2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702585779025
+status: 3
+tags: []
+user_id: flores-cuba
